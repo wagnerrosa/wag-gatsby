@@ -3,7 +3,6 @@ module.exports = {
     title: `Wagnerrosa`,
     description: `Wagner Rosa enjoy in making things for human people. I am living at Porto Alegre and working with video editing, web and graphic design.`,
     author: `wagnerrosa`,
-    siteUrl: `https://www.example.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -65,7 +64,6 @@ module.exports = {
         },
       },
     `gatsby-plugin-sass`,
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
