@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{zyLI:function(n,e,t){"use strict";t.r(e);var o=t("q1tI"),u=t.n(o);e.default=function(){return u.a.createElement("p",null,"Welcome to workout")}}}]);
+//# sourceMappingURL=component---src-pages-workout-js-daf785a12573881fbb10.js.map

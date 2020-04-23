@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/workout.js"],"names":["SecondPage"],"mappings":"2FAAA,gCAMeA,UAJI,kBACjB","file":"component---src-pages-workout-js-daf785a12573881fbb10.js","sourcesContent":["import React from \"react\"\r\n\r\nconst SecondPage = () => (\r\n  <p>Welcome to workout</p>\r\n)\r\n\r\nexport default SecondPage\r\n"],"sourceRoot":""}
