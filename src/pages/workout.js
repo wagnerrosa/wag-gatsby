@@ -1,7 +1,7 @@
 import React from "react"
 
 const SecondPage = () => (
-  <p>Welcome to page 2</p>
+  <p>Welcome to workout</p>
 )
 
 export default SecondPage
