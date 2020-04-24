@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+  font-family: 'Shadows Into Light', cursive;
+  margin: 5px 0 20px;
+  color: white;
+
+}
+
+.flex {
+  color: white;
+  text-align: center;
+}
+
+.caixa {
+  background-color: black;
+  max-width: 400px;
+  margin: 20vh auto 0;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.caixa img {
+  max-width: 150px;
+}
+
+.caixa a {
+  margin: 0 20px;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+/*GrayScale*/
+.caixa img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.caixa:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+/*Links*/
+:root {
+  --mainColor: #00ffd5de;
+}
+
+a {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 0px 0px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+
+a:hover {
+  background-size: 4px 50px;
+}
